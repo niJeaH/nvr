@@ -1,13 +1,10 @@
-pip3 install numpy
-pip3 install pandas
-pip3 install networkx
-pip3 install matplotlib
-pip3 install datetime
+'''
+pip3 install numpy, pandas, networkx, matplotlib, datetime
 #! /urs/bin/python
 bash
 cd jamr
 python3
-
+''''
 import pexpect
 import pandas as pd
 import numpy as np
@@ -307,8 +304,6 @@ len(revs_Sa.Product_name.unique())
 len(revs_LG.Product_name.unique())
 revs_Hw.columns
 ##
-
-
 with open("outputsx.txt","r") as ed:
     test = [l for line in ed for l in line.split("\r\n")]
 test
@@ -319,7 +314,6 @@ for k in range(len(st)):
 cf.write("tts")
 cf.close()
         ######### run the parser
-
 st
 subs.columns
 
